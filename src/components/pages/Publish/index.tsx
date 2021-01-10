@@ -31,6 +31,7 @@ export default function PublishPage({
   const [did, setDid] = useState<string>()
 
   const hasFeedback = isLoading || error || success
+  console.log(initialValues)
 
   async function handleSubmit(
     values: Partial<MetadataPublishForm>,
@@ -73,6 +74,7 @@ export default function PublishPage({
   }
 
   return isInPurgatory && purgatoryData ? null : (
+    
     <Formik
       initialValues={initialValues}
       initialStatus="empty"

@@ -29,14 +29,14 @@ export const validationSchema: Yup.SchemaOf<MetadataPublishForm> = Yup.object()
   .defined()
 
 export const initialValues: Partial<MetadataPublishForm> = {
-  name: '',
+  name: 'Marc',
   author: '',
   dataTokenOptions: {
     name: '',
     symbol: ''
   },
   files: '',
-  description: '',
+  description: 'Test set',
   access: '',
   termsAndConditions: false
 }

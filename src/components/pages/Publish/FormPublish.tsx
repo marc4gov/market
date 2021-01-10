@@ -49,6 +49,8 @@ export default function FormPublish({
     setStatus('empty')
   }
 
+  console.log("FormPublish", initialValues)
+
   return (
     <Form
       className={styles.form}
