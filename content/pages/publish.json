@@ -1,14 +1,14 @@
 {
-  "title": "Publish",
-  "description": "Highlight the important features of your data set to make it more discoverable and catch the interest of data consumers.",
+  "title": "Publish an Energy Web Device Dataset",
+  "description": "Register producing devices in Energy Web and collect metered data and peg the device to an Ocean Market datatoken pool.",
   "warning": "Given the beta status, publishing on Ropsten or Rinkeby first is strongly recommended. Please familiarize yourself with [the market](https://oceanprotocol.com/technology/marketplaces), [the risks](https://blog.oceanprotocol.com/on-staking-on-data-in-ocean-market-3d8e09eb0a13), and the [Terms of Use](/terms).",
   "form": {
-    "title": "Publish",
+    "title": "Publish an Energy Web Device Dataset",
     "data": [
       {
         "name": "name",
         "label": "Title",
-        "placeholder": "e.g. Shapes of Desert Plants",
+        "placeholder": "e.g. Solar power plant Siam Solar Energy 1 Solar PV1",
         "help": "Enter a concise title.",
         "required": true
       },
